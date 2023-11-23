@@ -6,3 +6,4 @@ with open("day1.txt", "r") as file:
 for val in lines:
     total += val//3-2
 print(total)
+#part 1
