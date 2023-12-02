@@ -1,6 +1,6 @@
 lines = []
 total = 0
-with open("day1.txt", "r") as file:
+with open("2019day1.txt", "r") as file:
     for line in file:
         lines.append(int(line.strip()))
 for val in lines:

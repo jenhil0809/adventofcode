@@ -37,7 +37,7 @@ def get_win(list_numbers, card):
 
 
 def main():
-    with open("day4.txt") as file:
+    with open("2021day4.txt") as file:
         list_numbers = []
         bingo_card = []
         min_win_index = max_win_index = 0
