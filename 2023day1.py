@@ -10,7 +10,6 @@ def convert(line):
     line = line.replace("nine", "nine9nine")
     return line
 
-print(convert("xtwone3four"))
 with (open("2023day1.txt", "r") as file):
     lines = [line.strip() for line in file]
 
